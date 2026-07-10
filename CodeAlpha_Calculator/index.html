@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="left-content">
+        <h1>CALCULATOR</h1>
+    </div>
+
+    <div class="calculator">
+
+        <div class="top-bar">
+
+        <button id="themeBtn">
+    <i class="fa-regular fa-moon"></i>
+</button>
+
+        <button id="historyBtn">
+            🕘
+        </button>
+
+    </div>
+
+        <div id="historyPanel">
+            <h3>History</h3>
+
+            <ul id="historyList"></ul>
+
+            <button id="clearHistoryBtn">
+                🗑 Clear History
+            </button>
+        </div>
+
+        <input type="text" id="display" readonly>
+
+        <div class="buttons">
+
+            <!-- Your calculator buttons -->
+             <button class="operator" onclick="clearDisplay()">AC</button>
+        <button class="operator" onclick="deleteLast()">⌫</button>
+        <button class="operator" onclick="appendPercentage()">%</button>
+        <button class="operator" onclick="appendValue('/')">÷</button>
+
+        <button onclick="appendValue('7')">7</button>
+        <button onclick="appendValue('8')">8</button>
+        <button onclick="appendValue('9')">9</button>
+        <button class="operator" onclick="appendValue('*')">×</button>
+
+        <button onclick="appendValue('4')">4</button>
+        <button onclick="appendValue('5')">5</button>
+        <button onclick="appendValue('6')">6</button>
+        <button class="operator" onclick="appendValue('-')">−</button>
+
+        <button onclick="appendValue('1')">1</button>
+        <button onclick="appendValue('2')">2</button>
+        <button onclick="appendValue('3')">3</button>
+        <button class="operator" onclick="appendValue('+')">+</button>
+
+        <button onclick="appendValue('0')">0</button>
+        <button onclick="appendValue('.')">.</button>
+        <button class="equal" onclick="calculate()">=</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
