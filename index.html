@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gallery Hub</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-images"></i>
+
+            <h2>Gallery Hub</h2>
+
+        </div>
+
+        <ul class="menu">
+
+            <li class="active" id="allAlbums">
+
+                <i class="fa-solid fa-folder-open"></i>
+
+                All Albums
+
+            </li>
+
+            <li id="deletedAlbum">
+
+                <i class="fa-solid fa-trash"></i>
+
+                Recently Deleted
+
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- Main -->
+
+    <main class="main">
+
+        <!-- Header -->
+
+        <header>
+
+            <div>
+
+                <h1 id="pageTitle">
+
+                    All Albums
+
+                </h1>
+
+                <p>
+
+                    Organize your memories beautifully
+
+                </p>
+
+            </div>
+
+            <div class="header-buttons">
+
+                <button id="themeBtn">
+
+                    <i class="fa-regular fa-moon"></i>
+
+                </button>
+
+            </div>
+
+        </header>
+
+        <!-- Back Button -->
+
+        <button id="backBtn">
+
+            <i class="fa-solid fa-arrow-left"></i>
+
+            Back
+
+        </button>
+
+        <!-- Album Grid -->
+
+        <section id="albumGrid">
+
+            <!-- Generated using JavaScript -->
+
+        </section>
+
+        <!-- Images Grid -->
+
+        <section id="imageGrid">
+
+            <!-- Generated using JavaScript -->
+
+        </section>
+
+    </main>
+
+</div>
+
+<!-- ==================== LIGHTBOX ==================== -->
+
+<div class="lightbox">
+
+    <span class="close">
+
+        <i class="fa-solid fa-xmark"></i>
+
+    </span>
+
+    <button class="prev">
+
+        <i class="fa-solid fa-chevron-left"></i>
+
+    </button>
+
+    <img id="lightboxImage">
+
+    <button class="next">
+
+        <i class="fa-solid fa-chevron-right"></i>
+
+    </button>
+
+    <div class="lightbox-buttons">
+
+        <button id="deleteImage">
+
+            <i class="fa-solid fa-trash"></i>
+
+            Delete
+
+        </button>
+
+    </div>
+
+</div>
+
+<!-- ==================== POPUP ==================== -->
+
+<div class="popup">
+
+    <div class="popup-content">
+
+        <h2>
+
+            Recently Deleted
+
+        </h2>
+
+        <p>
+
+            What would you like to do?
+
+        </p>
+
+        <div class="popup-buttons">
+
+            <button id="restoreBtn">
+
+                <i class="fa-solid fa-rotate-left"></i>
+
+                Restore
+
+            </button>
+
+            <button id="deleteForeverBtn">
+
+                <i class="fa-solid fa-trash"></i>
+
+                Delete Forever
+
+            </button>
+
+            <button id="cancelBtn">
+
+                Cancel
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
