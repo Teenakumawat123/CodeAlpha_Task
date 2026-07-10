@@ -8,24 +8,6 @@ This repository contains all the tasks completed during my internship using **HT
 
 ## 📋 Completed Tasks
 
-### ✅ Task 1: Image Gallery
-
-A modern, responsive image gallery inspired by a smartphone gallery.
-
-**Features**
-- Album Categories
-- Sidebar Navigation
-- Lightbox View
-- Next / Previous Navigation
-- Recently Deleted
-- Restore & Delete Forever
-- Dark / Light Mode
-- Responsive Design
-
-📂 Folder: **CodeAlpha-Image-Gallery**
-
----
-
 ### ✅ Task 2: Calculator
 
 A modern calculator with an attractive UI and useful features.
@@ -41,6 +23,24 @@ A modern calculator with an attractive UI and useful features.
 - Responsive Design
 
 📂 Folder: **CodeAlpha-Calculator**
+
+---
+
+### ✅ Task 1: Image Gallery
+
+A modern, responsive image gallery inspired by a smartphone gallery.
+
+**Features**
+- Album Categories
+- Sidebar Navigation
+- Lightbox View
+- Next / Previous Navigation
+- Recently Deleted
+- Restore & Delete Forever
+- Dark / Light Mode
+- Responsive Design
+
+📂 Folder: **CodeAlpha-Image-Gallery**
 
 ---
 
