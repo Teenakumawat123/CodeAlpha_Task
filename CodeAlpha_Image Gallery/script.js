@@ -697,8 +697,6 @@ themeBtn.addEventListener("click",function(){
 
 });
 
-
-
 // LOCAL STORAGE
 
 function saveGallery(){
@@ -720,8 +718,6 @@ function saveGallery(){
     );
 
 }
-
-
 
 function loadGallery(){
 
@@ -763,8 +759,6 @@ loadGallery();
 
 showAlbums();
 
-
-
 // AUTO SAVE
 
 const originalOpenAlbum = openAlbum;
@@ -777,7 +771,6 @@ openAlbum = function(index){
 
 };
 
-
 const originalShowDeleted = showDeletedImages;
 
 showDeletedImages = function(){
@@ -788,25 +781,17 @@ showDeletedImages = function(){
 
 };
 
-
-
 // SAVE AFTER DELETE
 
 deleteBtn.addEventListener("click",saveGallery);
-
-
 
 // SAVE AFTER RESTORE
 
 restoreBtn.addEventListener("click",saveGallery);
 
-
-
 // SAVE AFTER DELETE FOREVER
 
 deleteForeverBtn.addEventListener("click",saveGallery);
-
-
 
 // SAVE BEFORE EXIT
 
